@@ -1,0 +1,33 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ndvruner/node.js3.git"
+  },
+  "keywords": [
+    "a"
+  ],
+  "author": "devrun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndvruner/node.js3/issues"
+  },
+  "homepage": "https://github.com/ndvruner/node.js3#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.4"
+  }
+}
